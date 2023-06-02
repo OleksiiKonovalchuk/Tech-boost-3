@@ -8,7 +8,7 @@ const Card = ({ id, tweets, followers, avatar }) => {
   const [btnActive, setBtnActive] = useState(false);
   const clickHandler = () => {
     setBtnActive(prev => !prev);
-    updateFollowers(id);
+    // updateFollowers(id);
   };
   return (
     <div key={id} className={css.card}>
