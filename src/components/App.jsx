@@ -1,4 +1,6 @@
+import { Route, Routes } from 'react-router-dom';
 import UsersList from './UsersList/UsersList';
+import HomePage from './Home/HomePage';
 
 export const App = () => {
   return (
@@ -10,7 +12,10 @@ export const App = () => {
         alignItems: 'center',
       }}
     >
-      <UsersList />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/tweets" element={<UsersList />} />
+      </Routes>
     </div>
   );
 };
