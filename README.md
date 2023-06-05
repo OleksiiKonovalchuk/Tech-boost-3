@@ -40,7 +40,6 @@ $ npm start
 ```
 
 ## Acknowledgements
-Give credit here.
 - This project's styles were inspired by [@Fivejka](https://www.instagram.com/fiveia_ko)
 - This project was built thanks to [GO IT](https://goit.global/ua/).
 
