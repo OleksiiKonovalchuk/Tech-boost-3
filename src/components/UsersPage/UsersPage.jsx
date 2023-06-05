@@ -3,6 +3,7 @@ import css from './UsersPage.module.scss';
 import { getAllUsers, getUsersFromPage } from 'API/API';
 import Card from 'components/Card/Card';
 import Dropdown from './Dropdown/Dropdown';
+import Header from 'components/Header/Header';
 
 const UsersPage = () => {
   const [filter, setFilter] = useState('show all');
@@ -61,22 +62,30 @@ const UsersPage = () => {
     <p className={css.noUsers}>There are no Users to show!</p>
   );
   return (
-    <main>
-      <section className={css.usersSection}>
-        <h1 className="visually-hidden">Users List Section </h1>
-        <Dropdown onChange={setFilter} />
-        <ul className={css.users}>{items}</ul>
-        <button
-          type="button"
-          className={css.loadMore}
-          onClick={() => {
-            setPage(prev => prev + 1);
-          }}
-        >
-          <p className={css.btnText}>Load More</p>
-        </button>
-      </section>
-    </main>
+    <>
+      <main className={css.mainBG}>
+        <section className={css.usersSection}>
+          <div className="container">
+            <h1 className="visually-hidden">Users List Section </h1>
+            <div className={css.wrap}>
+              <Dropdown onChange={setFilter} /> <Header />
+            </div>
+            <ul className={css.users}>{items}</ul>
+            {items.length !== 16 && (
+              <button
+                type="button"
+                className={css.loadMore}
+                onClick={() => {
+                  setPage(prev => prev + 1);
+                }}
+              >
+                <p className={css.btnText}>Load More</p>
+              </button>
+            )}
+          </div>
+        </section>
+      </main>
+    </>
   );
 };
 

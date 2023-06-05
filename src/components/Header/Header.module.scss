@@ -1,29 +1,29 @@
 .header {
+  margin-right: 54px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
   background-color: transparent;
-  position: absolute;
-  top: 0;
-  left: 40%;
 }
 .link {
-  background-color: transparent;
+  font-family: 'Rajdhani', sans-serif;
+  background-color: #18173084;
   text-decoration: none;
-  font-weight: 600;
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 20px;
   line-height: 22px;
   text-transform: uppercase;
-  border-radius: 20px;
-  padding: 10px;
-  border: 1px solid #9336b4;
+
+  display: inline-block;
+  border-radius: 40px;
+  padding: 15px 30px;
+  color: #dc85fb;
+  border: 2px solid #dc85fb;
   transition: all ease-out 300ms;
   &:hover {
     background-color: #dd58d6;
-    color: #ffe79b;
+    color: #fbf8ff;
     border-color: #dd58d6;
-    box-shadow: 0px 4.39163px 4.39163px rgba(0, 0, 0, 0.06),
-      0px -2.19582px 4.39163px #ae7be3, 0px 4.39163px 3.29372px #fbf8ff;
+    box-shadow: 0px 0px 25px 0px #dc85fb;
   }
 }

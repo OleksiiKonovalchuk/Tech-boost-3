@@ -1,7 +1,13 @@
 .usersSection {
-  margin-top: 100px;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+.wrap {
+  display: flex;
+  justify-content: space-between;
 }
 .users {
+  margin-top: 10px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -13,7 +19,7 @@
   line-height: 22px;
   text-transform: uppercase;
   margin-top: 26px;
-  color: #373737;
+  color: #ebd8ff;
 }
 .loadMore {
   display: flex;
@@ -48,7 +54,14 @@
 }
 .btnText {
   color: #ebd8ff;
-
   transform: scale(1);
   transition: all ease-in-out 300ms;
+}
+.mainBG {
+  background-image: url('../../img/backgroundHP.jpg');
+  background-position: top 0 left 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow-x: scroll;
 }

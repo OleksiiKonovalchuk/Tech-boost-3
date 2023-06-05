@@ -1,29 +1,72 @@
 .home {
   width: 100vw;
   height: 100vh;
-  z-index: 12;
   background-image: url('../../img/backgroundHP.jpg');
   background-position: top 0 left 0;
   background-size: cover;
   background-repeat: no-repeat;
-
+  color: #fbf8ff;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  padding-left: 70px;
+}
+.hero {
+  padding: 20px;
+  overflow: hidden;
+}
+.logoLink {
+  display: inline-block;
+  margin-bottom: 40px;
+  color: #dc85fb;
+  box-shadow: none;
+  transition: all linear 250ms;
+  &:hover {
+    color: #fbf8ff;
+  }
+}
+.logo {
+  width: 95px;
+  fill: currentColor;
+  transition: all linear 300ms;
+  .logoLink:hover & {
+    background-color: #fcfcfc93;
+    box-shadow: 0px 0px 15px 0 #fcfcfc;
+  }
 }
 .header {
+  font-family: 'Wix Madefor Text', sans-serif;
   font-weight: 600;
   font-size: 60px;
-  line-height: 1.5;
+  line-height: 1.4;
   text-transform: uppercase;
-  margin-top: 26px;
-  color: #373737;
+  margin-top: 20px;
   margin: 0;
-  text-align: center;
 }
 .text {
-  // text-align: center;
-  font-size: 40px;
-  line-height: 1.5;
-  color: #373737;
+  font-size: 30px;
+  line-height: 1;
+  margin-bottom: 50px;
+}
+.link {
+  font-family: 'Rajdhani', sans-serif;
+  background-color: #18173084;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 22px;
+  text-transform: uppercase;
+
+  display: inline-block;
+  border-radius: 40px;
+  padding: 15px 30px;
+  color: #dc85fb;
+  border: 2px solid #dc85fb;
+  transition: all ease-out 300ms;
+  &:hover {
+    background-color: #dd58d6;
+    color: #fbf8ff;
+    border-color: #dd58d6;
+    box-shadow: 0px 0px 25px 0px #dc85fb;
+  }
 }

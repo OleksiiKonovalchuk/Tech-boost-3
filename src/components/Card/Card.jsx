@@ -30,7 +30,7 @@ const Card = ({ user, storageHandler }) => {
     updateFollowers({ id, subscribers, sub });
   };
   return (
-    <div key={id} className={css.card}>
+    <li key={id} className={css.card}>
       <img src={bg} alt="bg" className={css.img} />
       <img src={logo} alt="logo" className={css.logo} />
       <div className={css.avatarWrapper}>
@@ -46,7 +46,7 @@ const Card = ({ user, storageHandler }) => {
       >
         {sub ? 'following' : 'follow'}
       </button>
-    </div>
+    </li>
   );
 };
 
