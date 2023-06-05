@@ -16,6 +16,19 @@ const Card = ({ user, storageHandler }) => {
   });
   const [followers, setFollowers] = useState(subscribers);
 
+  const commaAdder = number => {
+    if (number.toString().length <= 3) return number;
+    if (number.toString().length <= 6) {
+      const str = number.toString().split('');
+      str.splice(-3, 0, ',');
+      return str.join('');
+    }
+    const str = number.toString().split('');
+    str.splice(-3, 0, ',');
+    str.splice(-7, 0, ',');
+    return str.join('');
+  };
+
   const clickHandler = () => {
     setSub(prev => !prev);
     storageHandler({ creator, sub });
@@ -38,7 +51,7 @@ const Card = ({ user, storageHandler }) => {
         <p className={css.userName}>{creator}</p>
       </div>
       <p className={css.tweets}>{tweets} tweets</p>
-      <p className={css.followers}>{followers} followers</p>
+      <p className={css.followers}>{commaAdder(followers)} followers</p>
       <button
         type="button"
         className={sub ? `${css.button} ${css.active}` : css.button}
