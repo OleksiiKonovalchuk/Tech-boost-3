@@ -27,13 +27,13 @@
 ## Setup
 To run this project, install it locally using npm and git:
 
-- _first step_: open a folder where you want th project to be in.
-- _second step_: open git bash, or you favorite terminal.
-- _third step_: run this command in terminal
+* _first step_: open a folder where you want th project to be in.
+* _second step_: open git bash, or you favorite terminal.
+* _third step_: run this command in terminal 
 ```
 $ git clone https://github.com/OleksiiKonovalchuk/Tech-boost-3
 ```
--_fourth step_: open the new folder, that was just created, open terminal there, and run these two commands
+* _fourth step_: open the new folder, that was just created, open terminal there, and run these two commands
 ```
 $ npm install
 $ npm start
