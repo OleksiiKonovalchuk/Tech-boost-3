@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import css from './Card.module.scss';
 import bg from '../../img/bg.png';
 import logo from '../../img/Logo.png';
@@ -29,7 +29,6 @@ const Card = ({ user, storageHandler }) => {
     });
     updateFollowers({ id, subscribers, sub });
   };
-  useEffect(() => {}, []);
   return (
     <div key={id} className={css.card}>
       <img src={bg} alt="bg" className={css.img} />

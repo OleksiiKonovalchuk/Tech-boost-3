@@ -1,0 +1,29 @@
+.home {
+  width: 100vw;
+  height: 100vh;
+  z-index: 12;
+  background-image: url('../../img/backgroundHP.jpg');
+  background-position: top 0 left 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin-top: 26px;
+  color: #373737;
+  margin: 0;
+  text-align: center;
+}
+.text {
+  // text-align: center;
+  font-size: 40px;
+  line-height: 1.5;
+  color: #373737;
+}

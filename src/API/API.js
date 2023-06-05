@@ -4,7 +4,15 @@ const instance = axios.create({
   baseURL: 'https://6478ea36362560649a2ea40e.mockapi.io/api',
 });
 
-export const getAllUsers = async (page = 1) => {
+export const getAllUsers = async () => {
+  try {
+    const { data } = await instance.get(`/users?page=1&limit=3`);
+    return data;
+  } catch (err) {
+    console.log(err.message);
+  }
+};
+export const getUsersFromPage = async page => {
   try {
     const { data } = await instance.get(`/users?page=${page}&limit=3`);
     return data;
