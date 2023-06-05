@@ -1,33 +1,47 @@
 # Hello My friend! And Welcome!
 
-In this web app, you are lending on our home page, which welcomes you! Also
-there is a link to owners page and a link to Tweets Page.
+# This projects name is Tech boost 3.0
+> In this project we're trying to convince a company that it needs us, and our services! 
+> Live page [_here_](https://oleksiikonovalchuk.github.io/Tech-boost-3/). 
 
-## Links
+## Table of Contents
+* [General Info](#general-information)
+* [Technologies Used](#technologies-used)
+* [Setup](#setup)
+* [Acknowledgements](#acknowledgements)
+* [Contact](#contact)
 
-- [General info](#general-info)
-- [Technologies](#technologies)
-- [Setup](#setup)
 
-## General info
+## General Information
+- Our app brings all the world known people in one page, to see their followers, tweets.
+- You can follow them or unfollow.
+- Also you can filter all users, to see only who you follow, or who you're not yet following.
 
-This project is simple Lorem ipsum dolor generator.
 
-## Technologies
+## Technologies Used
+- [Mockapi](https://mockapi.io/)
+- [React.js](https://react.dev/)
+- [SASS](https://sass-lang.com/)
 
-Project is created with:
-
-- Lorem version: 12.3
-- Ipsum version: 2.33
-- Ament library version: 999
 
 ## Setup
-
 To run this project, install it locally using npm and git:
 
-```
-
+``
+first step: open a folder where you want th project to be in.
+second step: open git bash, or you favorite terminal.
+third step: run these three comands in the terminal:
 $ git clone https://github.com/OleksiiKonovalchuk/Tech-boost-3
 $ npm install
 $ npm start
-```
+``
+
+## Acknowledgements
+Give credit here.
+- This project's styles were inspired by [@Fivejka](https://www.instagram.com/fiveia_ko)
+- This project was built thanks to [GO IT](https://goit.global/ua/).
+
+## Contact
+Created by [@Alex Ko](https://t.me/OleksiiKonovalchuk) - feel free to contact me!
+
+
