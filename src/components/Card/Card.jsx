@@ -3,6 +3,7 @@ import css from './Card.module.scss';
 import bg from '../../img/bg.png';
 import logo from '../../img/Logo.png';
 import { updateFollowers } from 'API/API';
+import { commaAdder } from 'utils/commaAdder';
 
 const Card = ({ user, storageHandler }) => {
   const { id, tweets, followers: subscribers, avatar, user: creator } = user;
@@ -15,19 +16,6 @@ const Card = ({ user, storageHandler }) => {
     return false;
   });
   const [followers, setFollowers] = useState(subscribers);
-
-  const commaAdder = number => {
-    if (number.toString().length <= 3) return number;
-    if (number.toString().length <= 6) {
-      const str = number.toString().split('');
-      str.splice(-3, 0, ',');
-      return str.join('');
-    }
-    const str = number.toString().split('');
-    str.splice(-3, 0, ',');
-    str.splice(-7, 0, ',');
-    return str.join('');
-  };
 
   const clickHandler = () => {
     setSub(prev => !prev);
