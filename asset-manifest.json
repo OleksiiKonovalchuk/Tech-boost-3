@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Tech-boost-3/static/css/main.adb77b9c.css",
-    "main.js": "/Tech-boost-3/static/js/main.d909c49d.js",
+    "main.js": "/Tech-boost-3/static/js/main.2b7e920c.js",
     "static/css/568.352c3d9f.chunk.css": "/Tech-boost-3/static/css/568.352c3d9f.chunk.css",
-    "static/js/568.c734f5f3.chunk.js": "/Tech-boost-3/static/js/568.c734f5f3.chunk.js",
+    "static/js/568.39f9f4ae.chunk.js": "/Tech-boost-3/static/js/568.39f9f4ae.chunk.js",
     "static/js/251.daebfca2.chunk.js": "/Tech-boost-3/static/js/251.daebfca2.chunk.js",
     "static/media/backgroundHP.jpg": "/Tech-boost-3/static/media/backgroundHP.5cd36c321b8267e8854b.jpg",
     "static/media/bg.png": "/Tech-boost-3/static/media/bg.b3d9942b3f9d5dad1ff0.png",
     "static/media/goIT.svg": "/Tech-boost-3/static/media/goIT.3265b876c46bceedda771b4283cbff9d.svg",
     "index.html": "/Tech-boost-3/index.html",
     "main.adb77b9c.css.map": "/Tech-boost-3/static/css/main.adb77b9c.css.map",
-    "main.d909c49d.js.map": "/Tech-boost-3/static/js/main.d909c49d.js.map",
+    "main.2b7e920c.js.map": "/Tech-boost-3/static/js/main.2b7e920c.js.map",
     "568.352c3d9f.chunk.css.map": "/Tech-boost-3/static/css/568.352c3d9f.chunk.css.map",
-    "568.c734f5f3.chunk.js.map": "/Tech-boost-3/static/js/568.c734f5f3.chunk.js.map",
+    "568.39f9f4ae.chunk.js.map": "/Tech-boost-3/static/js/568.39f9f4ae.chunk.js.map",
     "251.daebfca2.chunk.js.map": "/Tech-boost-3/static/js/251.daebfca2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.adb77b9c.css",
-    "static/js/main.d909c49d.js"
+    "static/js/main.2b7e920c.js"
   ]
 }
